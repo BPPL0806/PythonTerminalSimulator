@@ -1,1 +1,10 @@
-# PythonTerminalSimulator
+![Python Terminal Simulator](https://lh3.googleusercontent.com/ooPc-u6VI-YArwrBNzd4QozbCKj9EXTbWycQSRvXvjj5RVRDdXH_YuXEH61l_xlH_q6-8FrNvz80xB0ZSzSKNyJrKeEPnEornnx2VXfHe6lG2KANPllZU6xj1OtZ6thouQhOof8O-E2ReJ7LOoGzZf3aAbolMK3-YkV42yHiswNqrWCVm6eET7htIvHcNdD6Z3s73iesRlhafkHQt6DDmIoqUYuVQv6GEHcAR5ZOQsCcbrybXxqMQBveEiAOEvkWLgXxzD2BrRSoFJgrvhvrhttgiBMWWhjmW5YMk905iBytRxMZh-2Linkhj-0AUCmXjo0cPzmYAq22TqBwvopQcsOhyXgkrEgkfOAEQths81dpkGpnyiEK2GQ5BREJIWt3QlKIna7SRtA9utz3RaEB47b6khjoIY07QtUAUAdgTiYlB00RQdZy9y33H1HuflGub7pcg_1M5D30MFOzlY5pZ2kdkiVsTTh37rxvsA5ZuX9L5pKumrIMpGFzkJR0i5Oh3Fl77FjstENu_XEHIZVYg5H8dr95LcRU0gq_rSLN78-CN03heRgXgqGuALIqnIoqtJGFOPF-VyojAf5fy06eXiSFsPyiXoECmK_pNr7BF4nvdnIbSs7vQb4TYUNL02Rj6iNdC7BqGtOg6HKtfT9A0RJh87U16cc8ab8YH_KJ1D4zlLKmnU0wu9GOiJcrswQ9dGmidv6TetftD5gRrTEk4CxTE762JNA2pHmQE-WKLqJ83iX4nZ_rvO9sG-eqLk1QlKd2jWsvGLPJYncR4kQD3ePVAZKltFWXhaao0pT0MHKgYtv4ciu2KEPYJWTPan5zbyd2aqo_QPpNueO55XwSz6iLSyOQ6uHR7c-3TKcl5idLyt5bDtqct9xppw0s77fwwnpVxUL8KXOKSOi76JPBJD_sAxaRpWY6Di3GejfD__8C=w1538-h512-no?authuser=0)
+### PTS is a project that I made out of boredom and also as Python training.
+### As the name says, it's a terminal simulation written in Python 3.11.
+### It's currently able to create files and explore local directories, so it's not much. But I'm planning to add more stuff in the future.
+
+##### pip requirements:
+- os
+- platform
+- subproccess
+- getpass
