@@ -56,7 +56,7 @@ def main():
                 else:
                     os.mkdir(cmd[1])
             #touch command creating files
-            elif cmd[0] == "touch":
+            elif cmd[0] == "mk":
                 if len(cmd) == 1:
                     print("touch: missing operand")
                 else:
@@ -68,7 +68,7 @@ def main():
                 print("cd [directory] - change directory")
                 print("pwd - print current directory")
                 print("mkdir [directory] - create directory")
-                print("touch [file] - create file")
+                print("mk [file] - create file")
                 print("tree - show directory tree structure")
                 print("clear - clear terminal")
                 print("help - show this message")
