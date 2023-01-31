@@ -1,7 +1,8 @@
 # You can use this code in your project if you want, but please mentio me as creator if you release it to public beacuse it uses 4 clause BSD license.
 # Thank you for reading. ;)
 
-import subprocess, getpass, os, platform
+import subprocess, os, platform
+from getpass import getuser
 
 username = getpass.getuser() #Username that is used on local machine
 
