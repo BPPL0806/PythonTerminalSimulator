@@ -8,3 +8,5 @@
 - platform
 - subproccess
 - getpass
+
+[BSD-4-Clause license](LICENSE)
