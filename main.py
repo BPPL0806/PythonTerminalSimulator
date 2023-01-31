@@ -1,10 +1,11 @@
 # You can use this code in your project if you want, but please mentio me as creator if you release it to public beacuse it uses 4 clause BSD license.
 # Thank you for reading. ;)
 
-import subprocess, os, platform
+import subprocess, os
 from getpass import getuser
+from platform import system
 
-username = getpass.getuser() #Username that is used on local machine
+username = getuser() #Username that is used on local machine
 
 #Tree command function
 def display_tree(path, level):
@@ -15,7 +16,7 @@ def display_tree(path, level):
             display_tree(current_path, level + 1)
 #clear command function
 def clear_terminal():
-    if platform.system() == "Windows":
+    if system() == "Windows":
         subprocess.call("cls", shell=True)
     else:
         subprocess.call("clear", shell=True)
@@ -25,7 +26,7 @@ def main():
     print("Copyright (c) 2023 Bartłomiej Poleś. All rights reserved.\n")
     #App's main loop
     while True:
-        command = input("["+username+"@"+platform.system()+"]$ ").split(" && ")
+        command = input("["+username+"@"+system()+"]$ ").split(" && ")
         for cmd in command:
             cmd = cmd.strip().split()
             if not cmd:
@@ -65,10 +66,10 @@ def main():
                 if len(cmd) == 1:
                     print("color: missing operand")
                 else:
-                    if platform.system() == "Windows":
+                    if system() == "Windows":
                         os.system("color {0}".format(cmd[1]))
                     else:
-                        print("{}: command not found".format(cmd[0]))
+                        print("Sorry, color isn't supported on linux.")
             #help command for showing all available commands
             elif cmd[0] == "help":
                 print("List of commands:")
@@ -81,7 +82,7 @@ def main():
                 print("clear - clear terminal")
                 print("help - show this message")
                 print("exit - close the app")
-                print("color - changes colors of terminal")
+                print("color - changes colors of terminal (Windows only)")
                 print("whoami - display your username")
             #tree command displaying structure of currently opened directory
             elif cmd[0] == "tree":
