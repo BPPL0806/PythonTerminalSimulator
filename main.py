@@ -21,6 +21,7 @@ def clear_terminal():
 def main():
     #Clear local terminal on startup
     clear_terminal()
+    print("Copyright (c) 2023 Bartłomiej Poleś. All rights reserved.\n")
     #App's main loop
     while True:
         command = input("["+username+"@"+platform.system()+"]$ ").split(" && ")
