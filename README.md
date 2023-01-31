@@ -9,4 +9,5 @@
 - subproccess
 - getpass
 
-[BSD-4-Clause license](LICENSE)
+# License
+[Unlicense license](LICENSE)
