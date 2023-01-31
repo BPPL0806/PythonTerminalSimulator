@@ -1,6 +1,3 @@
-# You can use this code in your project if you want for some reason, but please mention me as creator if you release it to public beacuse it uses 4 clause BSD license.
-# Thank you for reading. ;)
-
 import subprocess, os
 from getpass import getuser
 from platform import system
@@ -23,7 +20,6 @@ def clear_terminal():
 def main():
     #Clear local terminal on startup
     clear_terminal()
-    print("Copyright (c) 2023 Bartłomiej Poleś. All rights reserved.\n")
     #App's main loop
     while True:
         command = input("["+username+"@"+system()+"]$ ").split(" && ")
